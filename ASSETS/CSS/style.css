@@ -1,0 +1,394 @@
+body{
+    background: url(../Images/Fond_Noir_Briques.jpg) no-repeat fixed;
+    background-size: 100%;
+    font-family: LibreBaskerville-Regular;
+    src: url(../../libre-baskerville/LibreBaskerville-Regular.ttf);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f2eddb;
+    font-size: 12pt;
+}
+.navbar-light:hover .navbar-nav:hover .nav-link:hover{
+    color: #4BBAB8;
+}
+.sticky-top{
+    margin-left: auto;
+}
+.navbar{
+    z-index: 10000;
+}
+.distance{
+    margin-top: 300px;
+}
+.marge{
+    margin-left: 400px;
+}
+.pad{
+    padding-left: 70px;
+}
+/*Page accueil */
+.row{
+    color: #f2eddb;
+}
+.container{
+    overflow: scroll;
+}
+.logoSize{
+    display: flex;
+    justify-content: center;
+}
+#fixed{
+    position: fixed;
+    z-index: 10001;
+}
+.cerclephto{
+    height: 150px; 
+    width: 150px;
+    padding: 55px; 
+	background-color: #FFFFFF;
+	border: 5px solid #f2eddb;
+    border-radius: 50% 50% ; 
+    top: 10px;
+}
+.cerclephto:hover{
+    height: 200px;
+    width: 200px;
+}
+#homeTxt{
+    color: #4BBAB8;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 400px;
+    padding-top: 30px;
+    border: solid #f2eddb;
+    border-radius: 100px;
+    height: 125px;
+    
+}
+/* Partie infos personnelles */
+
+#line , #line_2 , #line_3, #line_4{
+    margin-top: 600px;
+    font-size: 25pt;
+}
+.spacement{
+    margin-top: 100px;
+}
+.infos{
+    padding-left: 130px;
+}
+.distanceInfos{
+    margin-top: 200px;
+}
+.distanceR{
+    margin-top: 300px;
+}
+.paracel_1 , .paracel_2 , .paracel_3 , .paracel_4{
+    text-align: center;
+    height: 150px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    padding: 40px;
+}
+.paracel_1{
+    border: 5px solid #E35B06;
+}
+.paracel_2{
+    border: 5px solid #7CD175;
+}
+.paracel_3{
+    border: 5px solid #8E62D5;
+}
+.paracel_4{
+    border: 5px solid #75C6D1;
+}
+
+/*Dipômes et formations */
+
+#line_2{
+    font-size: 20pt;
+    text-align: center;
+}
+.cercle_diplomes , .cercle_diplomes_2{
+    height: 150px; 
+    width: 150px;
+	background-color: #FFFFFF;
+	border: 5px solid #f2eddb;
+    border-radius: 50% 50% ; 
+}
+.cercle_diplomes{
+    margin-left: 30px;
+}
+.cercle_diplomes_2{
+    margin-right: 30px;
+}
+.cel_bac , .cel_web , .cel_prte{
+    text-align: right;
+}
+.cel_gps{
+    margin-top: 60px;
+    text-align: center;
+}
+.cel_prte{
+    margin-top: 120px;
+}
+.taille{
+    height: 102px;
+}
+/* Expérience professionnelle */
+
+.img_1 , .img_2 , .img_3{
+    height: 150px; 
+    width: 150px;
+	border: 5px solid #f2eddb;
+    border-radius: 50% 50% ; 
+    padding: 30px;
+    padding-top: 40px;
+}
+.modal-title{
+    font-size: 18pt;
+    color: #000000;
+    font-weight: bold;
+}
+.modal-body{
+    font-size: 14pt;
+}
+.modalTop{
+    margin-top: 200px;
+}
+.colBottom , .colBottom2 , .colBottom3{
+    color: #f2eddb;
+    font-size: 22pt;
+    text-emphasis: center;
+}
+.colBottom:hover{
+    color: rgb(75, 196, 233);
+}
+.colBottom2:hover{
+    color: #E35B06;
+}
+.colBottom3:hover{
+    color: rgb(106, 212, 106);
+}
+.classBottom1{
+    display: flex;
+    justify-content: center;
+}
+.classBottom2{
+    display: flex;
+    justify-content: flex-end;
+}
+.classBottom3{
+    display: flex;
+    justify-self: start;
+}
+
+/* Divers & autres */
+
+.skills{
+    padding-top: 80px;
+}
+#suite , #bootstrap , #suiteA{
+    padding: 20px;
+}
+.divers{
+    font-size: 40pt;
+    text-align: center;
+}
+.others{
+    padding-top: 120px;
+
+}
+.driverL , .english{
+    padding: 25px;
+}
+.driverL{
+    padding-left: 10px;
+}
+#SkillBox {
+    font-size: 20px;
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+    border: 1px solid #f2eddb;
+}
+#Skill-HTML {
+    width: 35%;
+    animation: Animate-HTML 2s;
+    -webkit-animation: Animate-HTML 2s;
+    -moz-animation: Animate-HTML 2s;
+    -o-animation: Animate-HTML 2s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+
+}#Skill-CSS {
+    animation: Animate-CSS 2s;
+    -webkit-animation: Animate-CSS 2s;
+    -moz-animation: Animate-CSS 2s;
+    -o-animation: Animate-CSS 2s;
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 35%}
+
+}#Skill-office {
+    animation: Animate-office 2s;
+    -webkit-animation: Animate-office 2s;
+    -moz-animation: Animate-office 2s;
+    -o-animation: Animate-office 2s;
+    width: 75%;
+    height: 50px;
+    position: left;
+    background-color: #99856d;
+}
+@keyframes Animate-office {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-office {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-moz-keyframes Animate-office {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-office {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+
+}
+#Skill-english {
+    animation: Animate-HTML 2s;
+    -webkit-animation: Animate-HTML 2s;
+    -moz-animation: Animate-HTML 2s;
+    -o-animation: Animate-HTML 2s;    
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #95d461;
+}
+@keyframes Animate-english {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-english {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-english {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-english {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+
+}.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #f2eddb;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #f2eddb;
+    font-size: 18px;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 70px;
+}
